@@ -1,0 +1,13 @@
+{
+    "name": "mekas/package-user-agent-int-test",
+    "description": "short",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Mekas\\UserAgent\\Int\\Test\\": "./src"
+        }
+    },
+    "require": {}
+}
