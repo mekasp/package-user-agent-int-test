@@ -10,7 +10,7 @@ namespace Mekas\UserAgent\Int\Test;
 
 interface UserAgentInterface
 {
-    public function parse();
+    public function parse(string $userAgent);
 
     public function getBrowser(): ?string;
 
